@@ -25,6 +25,7 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 - Gulp
 
 ## Features
+- Nunjuck template engine
 - Live reloading with BrowserSync
 - Image Minification
 - Github Pages deployment
@@ -60,6 +61,7 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
   "gulp-minify-css": "^0.3.12",
   "gulp-minify-html": "^0.1.8",
   "gulp-notify": "^2.2.0",
+  "gulp-nunjucks-render": "^2.2.1",
   "gulp-plumber": "^0.6.6",
   "gulp-rename": "^1.2.0",
   "gulp-sass": "^1.3.2",
@@ -80,7 +82,8 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 - js-app
 - js-libs
 - sass-lint
-- minify-html
+- minify-html (disabled)
+- nunjuck
 - watch
 - imagemin
 - stats
@@ -92,7 +95,8 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
   - js-app
   - js-libs
   - imgmin
-  - minify-html
+  - minify-html (disabled)
+  - nunjuck
   - styles
   - watch
 - build
@@ -100,7 +104,8 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
   - js-app
   - js-libs
   - imgmin
-  - minify-html
+  - minify-html (disabled)
+  - nunjuck
   - styles
   - copy
 - audit
@@ -118,6 +123,7 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 │   ├── browserconfig.xml
 │   ├── crossdomain.xml
 │   ├── humans.txt
+|   ├── fonts
 │   ├── icons
 │   │   ├── apple-touch-icon-114x114-precomposed.png
 │   │   ├── apple-touch-icon-57x57-precomposed.png
@@ -127,9 +133,12 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 │   │   ├── favicon.ico
 │   │   └── favicon.png
 │   ├── img
-│   ├── index.html
 │   ├── js
+│   ├── pages
+│   │   └── index.njk
 │   ├── robots.txt
+│   ├── templates
+│   │   └── partials
 │   └── scss
 │       ├── atoms
 │       │   └── _index.scss
@@ -176,3 +185,4 @@ This toolkit is based on the work of the following fine people & projects.
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 - [Scalable and Modular Architecture for CSS](http://smacss.com/book) (<abbr title="Scalable and Modular Architecture for CSS">SMACSS</abbr>)
 - [Atomic Design](http://atomicdesign.bradfrost.com)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)

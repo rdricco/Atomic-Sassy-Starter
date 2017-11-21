@@ -4,7 +4,7 @@
   "description": "A starter toolkit based on Scalable and Modular Architecture for CSS (SMACSS) for Sass (SCSS) projects",
   "author": {
     "name": "Renato Ricco",
-    "url": ""
+    "url": "https://github.com/rdricco/Atomic-Sassy-Starter"
   },
   "version": "2.1.0",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/rdricco/atomic-sassy.git"
   },
-  "homepage": "https://rdricco.github.io/atomic-sassy/",
+  "homepage": "https://github.com/rdricco/Atomic-Sassy-Starter",
   "keywords": [
     "sass",
     "scss",
@@ -21,13 +21,11 @@
     "starter",
     "gulp",
     "smacss"
+    "nunjucks"
+    "ssg"
   ],
   "bugs": {
-    "url": "https://github.com/rdricco/atomic-sassy/issues"
-  },
-  "dependencies": {
-    "foundation-sites": "^6.4.4-rc1",
-    "gulp-include": "^2.3.1"
+    "url": "https://github.com/rdricco/Atomic-Sassy-Starter/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.0.0-rc4",
