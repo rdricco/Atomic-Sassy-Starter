@@ -1,0 +1,13 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+node_modules/
+dist/
+
+src/scss/_pgbackup/
+
+src/scss/pinegrow\.json
+
+src/templates/\.DS_Store
+
+package-lock\.json

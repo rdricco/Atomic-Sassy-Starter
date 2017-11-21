@@ -1,0 +1,58 @@
+{
+  "name": "atomic-sassy",
+  "title": "Atomic Sassy",
+  "description": "A starter toolkit based on Scalable and Modular Architecture for CSS (SMACSS) for Sass (SCSS) projects",
+  "author": {
+    "name": "Renato Ricco",
+    "url": ""
+  },
+  "version": "2.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rdricco/atomic-sassy.git"
+  },
+  "homepage": "https://rdricco.github.io/atomic-sassy/",
+  "keywords": [
+    "sass",
+    "scss",
+    "doc",
+    "boilerplate",
+    "starter",
+    "gulp",
+    "smacss"
+  ],
+  "bugs": {
+    "url": "https://github.com/rdricco/atomic-sassy/issues"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1",
+    "gulp-include": "^2.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.0.0-rc4",
+    "colors": "^1.1.2",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-concat": "^2.4.3",
+    "gulp-gh-pages": "^0.4.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sass-lint": "1.0.1",
+    "gulp-size": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.0.2",
+    "imagemin-pngquant": "^4.0.0",
+    "run-sequence": "^1.1.4",
+    "sassdoc": "^2.1.15",
+    "vinyl-paths": "^2.0.0"
+  }
+}
