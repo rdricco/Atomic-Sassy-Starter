@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rdricco/atomic-sassy.git"
+    "url": "git://github.com/rdricco/Atomic-Sassy-Starter.git"
   },
   "homepage": "https://github.com/rdricco/Atomic-Sassy-Starter",
   "keywords": [
@@ -20,8 +20,8 @@
     "boilerplate",
     "starter",
     "gulp",
-    "smacss"
-    "nunjucks"
+    "smacss",
+    "nunjucks",
     "ssg"
   ],
   "bugs": {
